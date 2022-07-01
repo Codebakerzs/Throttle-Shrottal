@@ -1,0 +1,162 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.my-nav {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: aliceblue !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+
+.carousel-item {
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: black;
+}
+
+.ourCafe {
+  margin: 50px;
+}
+
+#cafeHeading {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: Vivaldi;
+}
+#Enter {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+#Motor {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 9px;
+}
+
+.carousel-image1 {
+  background-image: url(./lino-C2SzUyg3PPQ-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 80vh;
+  margin-top: -150px;
+}
+
+.carousel-image2 {
+  background-image: url(./akash-gowda-QAZVWQN3Jao-unsplash.jpg);
+  background-size: cover;
+
+  width: 100%;
+  height: 850px;
+  margin-top: -150px;
+}
+.carousel-image3 {
+  background-image: url(./harley-davidson-Be8TdJZPaBE-unsplash.jpg);
+  background-size: cover;
+
+  width: 100%;
+  height: 850px;
+  margin-top: -150px;
+}
+
+#merchandizeHeading {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 9px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.merch-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.boy {
+  height: 500px;
+  width: 400px;
+  background-image: url("./anomaly-WWesmHEgXDs-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.girl {
+  height: 430px;
+  width: 400px;
+  background-image: url("./drop-the-label-movement-htMsuMd3npg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shopbtn {
+  margin: 350px 130px 20px 130px;
+  border: none;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.craft1 {
+  height: 400px;
+  width: 500px;
+  background-image: url("./nicola-fioravanti-SrQD9sbmAJE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.craft2 {
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  background-image: url("./kelly-sikkema-M6lApC0hEpg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.craftbtn {
+  margin: 330px 100px 20px 120px;
+}
+
+.carda {
+  width: 350px;
+  margin: 20px 50px !important;
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

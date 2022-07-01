@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+   
+    /* color: black; */
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2vw 0vw 2vw;
+    height: 70px; 
+    font-size: 20px;
+}
+
+
+
+ul {
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+li {
+    float: left;
+
+}
+#logo{
+    font-size: 30px;
+}
+#search{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.sideIcons{
+word-spacing: 40px;
+}
